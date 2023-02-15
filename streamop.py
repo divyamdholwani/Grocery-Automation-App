@@ -6,7 +6,6 @@ import ml
 st.write("""
 # THIS IS THE MINI-PROJECT FOR IH
 This will help the user to optimize their sales by our suggestions of gender audience and rating
-
 Please enter the required fields!!
 """)
 member_check= st.radio("Are you a member of Innovation Hub",("Yes","No"))
@@ -34,7 +33,6 @@ else:
 st.write("---")
 st.write("""
 # Your Results are Here!!
-
 Our application predicts that your product will have an average market rating of-- 
 """,round(rating_ans[0],4))
 

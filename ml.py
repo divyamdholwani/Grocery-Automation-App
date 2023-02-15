@@ -66,18 +66,6 @@ column_name2=['A', 'B', 'C', 'Mandalay', 'Naypyitaw', 'Yangon', 'Member', 'Norma
        'Unit price', 'Rating']
 
 def member(arr):
-    # y1_xg = le.fit_transform(y1)
-    # index_want=(0,1,2,3,4,5,6,7,8,9,10,11,12,13,15)
-    # arr_rate=[ arr[i] for i in index_want ]
-    # df_rate = pd.DataFrame([arr_rate] ,columns = column_name1)
-    # st.write(df_rate)
-    # min_max_scaler_object.fit(df_rate)
-    # bst = XGBClassifier(n_estimators=500, max_depth=2, learning_rate=10)
-    # bst.fit(x1, y1_xg)
-    # y1_pred = bst.predict(df_rate)
-    # df_y1_pred=pd.DataFrame(y1_pred,columns=['Rating'])
-    # df_y1_pred_final=le.inverse_transform(df_y1_pred)
-
     index_want=(0,1,2,3,4,5,6,7,8,9,10,11,12,13,15)
     arr_rate=[ arr[i] for i in index_want]
     df_rate = pd.DataFrame([arr_rate] ,columns = column_name1)
@@ -161,13 +149,3 @@ def get_data(in_arr):
         rating_ans,gender_ans=normal(arr)
 
     return rating_ans, gender_ans
-
-
-
-
-    
-
-
-    
-
-
