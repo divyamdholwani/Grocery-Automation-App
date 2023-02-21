@@ -2,8 +2,12 @@
 
 
 "This project has been made as a part of the mini-project of Innovation Hub"
+
 Problem Statement-
 Predict the rating of the product and the target gender audience.
+
+Objective-
+To help the sellers to know more about their product more by knowing the overall rating and gender audience to target.
 
 Brief about the project-
 1. The project has two main parts-
